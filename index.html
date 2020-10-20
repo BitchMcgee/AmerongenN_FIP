@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nic Amerongen Portfolio</title>
+    <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
+    <main id="portfolio">
+        <h1 class="hidden">Portfolio - Nic Amerongen</h1>
+    <section class="leftSide">
+        <div class="nameCorner">
+            <img class="logo" src="images/logo.svg" alt="Nic Amerongen logo">
+            <div class="animation">Animation goes here</div>            
+        </div>
+        <nav class="nav mainLinks">
+        <li class="nav-selection design-link"><a href="#">Link to Design Gallery</a></li>
+        <li class="nav-selection movingImage-link"><a href="#">Link to Moving Picture Gallery</a></li>
+        <li class="nav-selection photography-link"><a href="#">Link to Photography Gallery</a></li>
+        <li class="nav-selection about-link"><a href="#">Link to About</a></li>
+    </nav>
+    </section>
+<section class="viewer"><div id="currentMedia" ><image src="" alt="Selected Content"></div>
+</section>
+<h2>Demo Reel</h2>
+</main>
+<footer>This is the placeholder footer</footer>
 
-
-    
-    <script type="module" src="js/main.js"></script>
+<!--TEMPLATE START-->
+<template id="selection-template">
+    <div class="selection">
+        <h2 class="title"></h2>
+        <img class="image" src="" alt="Portfolio Piece">
+        <p class="description"></p>
+    </div>
+</template>
+<!--TEMPLATE END-->
+<!--SCRIPTS-->
+    <script src="js/main.js"></script>
+    <script type="module" src="js/modules/DataModule.js"></script>
+    <script type="module" src="js/modules/DataModule.json"></script>
+    <!--SCRIPTS END-->
 </body>
+
 </html>
