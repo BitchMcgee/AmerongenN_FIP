@@ -1,3 +1,25 @@
+.hidden {
+  display: none;
+}
 
+#portfolio {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainLinks {
+  color: grey;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+}
+
+.viewer {
+  width: 600px;
+  height: 375px;
+  color: aquamarine;
+}
 
 /*# sourceMappingURL=master.css.map */

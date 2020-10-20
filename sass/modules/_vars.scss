@@ -1,0 +1,11 @@
+$main-text-color: black;
+$main-bg-color: white;
+$main-font: 'Bell MT', 'arial', serif;
+$main-font-size: 18px;
+.hidden {
+    display: none;
+}
+#portfolio {
+    display: flex;
+    flex-direction: row;
+}
