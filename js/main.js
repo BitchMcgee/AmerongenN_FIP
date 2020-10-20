@@ -23,6 +23,4 @@ fetch('.DataModule.json')
     }
  })
 
-let myReq = new XMLHttpRequest;
-
 })();
